@@ -1,0 +1,312 @@
+.color-yellow{
+    background-color : #fdc800;
+}
+.color-grey{
+    background-color : #f0f4f9;
+}
+.color-blue{
+    background-color :#0D6EFD;
+}
+.color-lightblue{
+    background-color :#0dcaf0;
+}
+.color-white{
+    background-color: #FFFFFF;
+}
+.color-black{
+    background-color: black;
+}
+.font-color-navy{
+    color : #002147;
+}
+.font-color-grey{
+    color:#bdbdbd;
+}
+.font-color-green{
+    color :#00b2b2;
+}
+.font-13{
+    font-size:13px;
+}
+.font-14{
+    font-size:14px;
+}
+.font-18{
+    font-size : 18px;
+}
+.border-grey{
+    border : 1px solid #BDBDBD;
+}
+.border-white{
+    border :5px solid #ffffff;
+}
+.w-62per{
+    width:62%;
+}
+.font-color-white{
+    color : white;
+}
+/*------------------------------------*/
+.font{
+    font-family: Inter;
+}
+.select{
+    font-weight: Bold;
+    font-size: 20px;
+    color: #002147;
+}
+.form-select{
+    font-size: 16px;
+    color: #002147;
+}
+.cimg{
+    position: relative;
+    top:-40px;
+    left: 20px;
+}
+.cimg1{
+    position: relative;
+    left: 28px;
+    bottom: 112px;
+    margin-bottom: -115px;
+}
+
+.box2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.wid{
+    width:370px;
+}
+.content{
+    width: 592px;
+}
+.posi{
+    position: relative;
+    top: -300px;
+    margin-bottom : -300px;
+}
+
+
+
+.content{
+    width: 592px;
+}
+.check{
+    color: #00B2B2;
+}
+.list{
+    border: #BDBDBD;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-right: 330px;
+    margin-top: 50px;
+    height: 30px;
+}
+.wid{
+    width:370px;
+}
+.box{
+    width: 340px;
+    height: 97px;
+    background-color: white;
+    border-radius: 6px;
+    margin-left: 50px;
+    padding: 3%;
+}
+.box2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.box3{
+    margin-left: 80px;
+    margin-right: 0px;
+}
+.font{
+    font-family:Georgia ;
+    color: #002147;
+    font-size: 38px;
+}
+.color-yellow{
+    background-color : #fdc800;
+}
+span{
+    font-size:14px;
+}
+
+.color-blue{
+    background-color: #0D6EFD;
+}
+
+.time-size{
+    width : 1170px;
+    height : 198px;
+}
+
+.jumping-girl-size{
+    width : 170px;
+    height : 150px;
+}
+
+.w-62per{
+    width:62%;
+}
+
+.font-20px{
+    font-size:20px;
+}
+
+.font-60px{
+    font-size:60px;
+}
+
+.font-14px{
+    font-size:14px;
+}
+
+.font-30px{
+    font-size:30px;
+}
+
+.font-white{
+    color : white;
+}
+
+.font-yellow{
+    color : #FDC800;
+}
+
+.font-color-navy{
+    color : #002147;
+}
+.font-14{
+    font-size:14px;
+}
+.font-18{
+    font-size : 18px;
+}
+
+.border-grey{
+    border : 1px solid #BDBDBD;
+}
+
+.color-grey{
+    background-color : #F0F4F9;
+}
+
+.blue-position{
+    position : relative;
+    right : 20px;
+}
+
+.font{
+    font-family: Inter;
+}
+.select{
+    font-weight: Bold;
+    font-size: 20px;
+    color: #002147;
+}
+.form-select{
+    font-size: 16px;
+    color: #002147;
+}
+.cimg{
+    position: relative;
+    top:-40px;
+    left: 20px;
+}
+.cimg1{
+    position: relative;
+    left: 28px;
+    bottom: 112px;
+    margin-bottom: -115px;
+}
+
+.w-50per{
+    width:50%;
+}
+
+.box2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.wid{
+    width:370px;
+}
+.a{
+    background-color: red;
+}
+
+.box{
+    width: 340px;
+    height: 97px;
+    background-color: white;
+    border-radius: 6px;
+    margin-left: 50px;
+    padding: 3%;
+}
+.box1{
+    position : relative;
+    top : -30px;
+    left : 70px;
+    width: 340px;
+    height: 97px;
+    background-color: white;
+    border-radius: 6px;
+    margin-left: 50px;
+    padding: 3%;
+}
+
+.count{
+    position: relative;
+    left : 400px;
+    bottom: 370px;
+    margin-bottom : -370px;
+}
+
+.main{
+    position : relative;
+    top : -100px;
+    margin-bottom : -100px;
+}
+
+.new-position{
+    position: relative;
+    right : 20px;
+}
+
+.it{
+    border: none;
+    position: relative;
+    left: 45px;
+    color:#bdbdbd;
+    width: 340px;
+    height: 54px;
+}
+.email{
+    border-radius: 5px;
+    border:1px solid #BDBDBD;
+    width: 570px;
+    height: 56px;
+}
+.ei{
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: white;
+    position: relative;
+    top: 40px;
+    left: 16px;
+}
+.sb{
+    background-color: #FDC800;
+    width: 164px;
+    height: 44px;
+    border-radius: 4px;
+    border: none;
+    position: relative;
+    left: 400px;
+    top: -50px;
+}

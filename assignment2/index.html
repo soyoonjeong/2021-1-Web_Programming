@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <title>assignment2</title>
+</head>
+<body>
+    <div class="main-container">
+        <aside class="left-side">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57.251" height="54.074" viewBox="0 0 57.251 54.074">
+                    <defs>
+                      <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#a2d100"/>
+                        <stop offset="1" stop-color="#009233"/>
+                      </linearGradient>
+                      <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#aad51a"/>
+                        <stop offset="1" stop-color="#2fa541"/>
+                      </linearGradient>
+                    </defs>
+                    <g id="Symbol" transform="translate(-223.938 98.074)">
+                      <path id="패스_93" data-name="패스 93" d="M26.778,0C11.728-.124-.188,10.547-.211,26.989c-.014,10.347,9.3,15.889-3.274,18.661,10.793,9.932,30.262,8.328,30.262,8.328A26.989,26.989,0,0,0,26.778,0Z" transform="translate(227.422 -98.073)" fill="url(#linear-gradient)"/>
+                      <path id="교차_1" data-name="교차 1" d="M29.531,68.821q-.665-.527-1.295-1.105C40.805,64.943,31.5,59.4,31.51,49.055,31.532,32.612,43.448,21.942,58.5,22.065A27.7,27.7,0,0,1,67.4,23.6,34.622,34.622,0,0,1,29.531,68.821Z" transform="translate(195.701 -120.138)" fill="url(#linear-gradient-2)"/>
+                      <g id="dots">
+                        <circle id="타원_67" data-name="타원 67" cx="3.756" cy="3.756" r="3.756" transform="translate(253.502 -74.157)" fill="#fff"/>
+                        <circle id="타원_70" data-name="타원 70" cx="5.634" cy="5.634" r="5.634" transform="translate(238.478 -76.035)" fill="#fff"/>
+                        <circle id="타원_68" data-name="타원 68" cx="2.817" cy="2.817" r="2.817" transform="translate(264.771 -73.218)" fill="#fff"/>
+                      </g>
+                    </g>
+                  </svg>
+                  <div class="logo-title">
+                      <span class="logo-title-open">Open</span>
+                      <h1 class="logo-title-messenger">Messenger</h1>
+                  </div>     
+            </div>
+            <div class="profile">
+              <div class="profile-box">
+                <div class="chat-list-photo">
+                  <img class="profile-photo_img" src="images/라이언.png" alt="ryan's profile">
+                  <div class="profile-status"></div>
+                </div>
+                <div class="profile-details">
+                  <span class="profile-details_name">Ryan</span>
+                  <span class="profile-details_job">Sejong univ. Data Science</span>
+                  <form>
+                    <select class="profile-details_onoffline">
+                      <option>online</option>
+                      <option>offline</option>
+                    </select>
+                  </form>
+                </div>
+              </div>
+              <button class="button profile-icon"><i class="fas fa-cog"></i></button>
+            </div>
+            <header class="active-chats_header">
+              <span>Active Chats</span>
+              <button class="button active-chats_icon"><i class="fas fa-plus"></i></button>
+            </header>
+            <div class="active-chats">
+                <div class="search-people">
+                  <form>
+                    <input class="search-people_input" type="text" placeholder="Search People">
+                    <button class="button search-people_icon"><i class="fas fa-search"></i></button>
+                  </form>
+                </div>
+                <div class="chat-list">
+                  <div class="chat-list-elements">
+                    <div class="chat-list-element-box">
+                      <div class="chat-list-photo">
+                        <img class="chat-list_img" src="images/춘식이.jfif" alt="friend1_chunsik">
+                        <div class="chat-list_status "></div>
+                      </div>
+                      <div class="chat-list-profile-details">
+                        <span class="profile-details_name">Chunsik</span>
+                        <span class="profile-details_job">Typing...</span>
+                      </div>
+                    </div>
+                    <div class="chat-list_new">3</div>
+                  </div>
+                  <div class="chat-list-elements">
+                    <div class="chat-list-element-box">
+                      <div class="chat-list-photo">
+                        <img class="chat-list_img" src="images/무지.png" alt="friend2_muji">
+                        <div class="chat-list_status status-yellow"></div>
+                      </div>
+                      <div class="chat-list-profile-details">
+                        <span class="profile-details_name">Muji</span>
+                        <span class="profile-details_job">Am I a rabbit or a danmuji? </span>
+                      </div>
+                    </div>
+                    <div class="chat-list_time">04:09</div>
+                  </div>
+                  <div class="chat-list-elements">
+                    <div class="chat-list-element-box">
+                      <div class="chat-list-photo">
+                        <img class="chat-list_img" src="images/어피치.png" alt="friend3_apeach">
+                        <div class="chat-list_status status-yellow"></div>
+                      </div>
+                      <div class="chat-list-profile-details">
+                        <span class="profile-details_name">Apeach</span>
+                        <span class="profile-details_job">Why are you yellow?</span>
+                      </div>
+                    </div>
+                    <div class="chat-list_time">04:09</div>
+                  </div>
+                  <div class="chat-list-elements">
+                    <div class="chat-list-element-box">
+                      <div class="chat-list-photo">
+                        <img class="chat-list_img" src="images/네오.jfif" alt="friend4_neo">
+                        <div class="chat-list_status status-yellow"></div>
+                      </div>
+                      <div class="chat-list-profile-details">
+                        <span class="profile-details_name">Neo</span>
+                        <span class="profile-details_job">nyang!</span>
+                      </div>
+                    </div>
+                    <div class="chat-list_time">04:09</div>
+                  </div>
+                  <div class="chat-list-elements">
+                    <div class="chat-list-element-box">
+                      <div class="chat-list-photo">
+                        <img class="chat-list_img" src="images/프로도.jfif" alt="friend5_prodo">
+                        <div class="chat-list_status status-yellow"></div>
+                      </div>
+                      <div class="chat-list-profile-details">
+                        <span class="profile-details_name">Prodo</span>
+                        <span class="profile-details_job">love you, neo</span>
+                      </div>
+                    </div>
+                    <div class="chat-list_time">04:09</div>
+                  </div>
+                  <div class="chat-list-elements">
+                    <div class="chat-list-element-box">
+                      <div class="chat-list-photo">
+                        <img class="chat-list_img" src="images/튜브.jfif" alt="friend6_tube">
+                        <div class="chat-list_status status-yellow"></div>
+                      </div>
+                      <div class="chat-list-profile-details">
+                        <span class="profile-details_name">Tube</span>
+                        <span class="profile-details_job">i am duck</span>
+                      </div>
+                    </div>
+                    <div class="chat-list_time">04:09</div>
+                  </div>
+                  <div class="chat-list-elements">
+                    <div class="chat-list-element-box">
+                      <div class="chat-list-photo">
+                        <img class="chat-list_img" src="images/제이지.jfif" alt="friend7_jay-Z">
+                        <div class="chat-list_status status-yellow"></div>
+                      </div>
+                      <div class="chat-list-profile-details">
+                        <span class="profile-details_name">Jay-Z</span>
+                        <span class="profile-details_job">I am not rapper:(</span>
+                      </div>
+                    </div>
+                    <div class="chat-list_time">04:09</div>
+                  </div>
+                  <div class="chat-list-elements">
+                    <div class="chat-list-element-box">
+                      <div class="chat-list-photo">
+                        <img class="chat-list_img" src="images/오버액션토끼.png" alt="friend8_extremely rabbit">
+                        <div class="chat-list_status status-yellow"></div>
+                      </div>
+                      <div class="chat-list-profile-details">
+                        <span class="profile-details_name">Extremely Rabbit</span>
+                        <span class="profile-details_job">My mouth looks like a triangle</span>
+                      </div>
+                    </div>
+                    <div class="chat-list_time">04:09</div>
+                  </div>
+                </div>
+            </div>
+            
+        </aside>
+        <main>
+            <header class="main-header">
+              <div class="family-chat"><span>Family chat</span></div>
+            </header>
+            <div class="chat-area">
+                <div class="chat-area_me">
+                  <div class="chat-area_talkbox">
+                    <div class="chat-area_me_talk">Hello chunsik!</div>
+                    <div class="chat-area_me_talk">good morning:) How about pork cutlet for lunch?</div>
+                    <div class="chat-area_time">04:09</div>
+                  </div>
+                  <img class="chat-list_img" src="images/라이언.png" alt="me_ryan">
+                </div>
+                <div class="chat-area_you">
+                  <img class="chat-list_img" src="images/춘식이.jfif" alt="you_chunsik">
+                  <div class="chat-area_talkbox">
+                    <div class="chat-area_you_talk">I am so tired now!</div>
+                    <div class="chat-area_you_talk">I love pork cutlet! Let's go to Namsan to eat pork cutlet.</div>
+                    <div class="chat-area_time">04:09</div>
+                  </div>
+                </div>
+                <div class="chat-area_me">
+                  <div class="chat-area_talkbox">
+                    <div class="chat-area_me_talk">Good!</div>
+                    <div class="chat-area_me_talk">Let's study hard before we go to lunch.</div>
+                    <div class="chat-area_me_talk">Ask me if you don't know anything while studying.</div>
+                    <div class="chat-area_me_talk">I will help you!</div>
+                    <div class="chat-area_me_talk">I've been preparing a wise saying to boost our will.</div>
+                    <div class="chat-area_me_talk">If you cannot fly then run. If you cannot run, then walk. And, if you cannot walk, then crawl, but whatever you do, you have to keep moving forward.</div>
+                    <div class="chat-area_time">04:09</div>
+                  </div>
+                  <img class="chat-list_img" src="images/라이언.png" alt="me_ryan">
+                </div>
+                <div class="chat-area_you">
+                  <div class="chat-area_talkbox">
+                    <div class="chat-area_you_talk typing">Chunsik is typing...</div>
+                  </div>
+                </div>
+            </div>
+            <footer class="input-field">
+              <input type="text" placeholder="Enter your message here">
+              <div class="input-field_icons">
+                <button class="input-field-blur"><i class="far fa-smile fa-lg"></i></button>
+                <button class="input-field-blur"><i class="fas fa-paperclip fa-lg"></i></button>
+                <button class="input-field-circle"><i class="far fa-paper-plane fa-lg"></i></button>
+              </div>
+            </footer>
+        </main>
+        <aside class = "right-side">
+          <header class="chat-details">
+            <button class="chat-details-button"><i class="fas fa-arrow-left fa-lg"></i></button>
+            <span>Chat details</span>
+          </header>
+          <div class="right-profile">
+            <div class="profile-box right-profile-box">
+              <img class="profile-photo_img" src="images/sky.jfif" alt="Landscape photography">
+              <div class="profile-details">
+                <span class="profile-details_name">Family Chat</span>
+                <span class="profile-details_job">3 members</span>
+                <span class="profile-details_time">Last message: Today,04:09
+              </div>
+            </div>
+            <button class="button profile-icon"><i class="far fa-edit"></i></button>
+          </div>
+          <div class="call-or-chat">
+            <button class="call-or-chat_box">
+              <i class="fas fa-phone-alt"></i>
+              <span>Voice chat</span>
+            </button>
+            <button class="call-or-chat_box">
+              <i class="fas fa-video"></i>
+              <span>Video call</span>
+            </button>
+          </div>
+          <div class="people">
+            <header class="active-chats_header">
+              <span>People</span>
+              <div class="people_header_iconbox">
+                <button class="button active-chats_icon"><i class="fas fa-user-plus"></i></button>
+                <button class="button active-chats_icon"><i class="fas fa-caret-down"></i></button>
+              </div>
+            </header>
+            <div class="chat-list">
+              <div class="chat-list-elements people-list-elements">
+                <div class="chat-list-element-box">
+                  <div class="chat-list-photo">
+                    <img class="people-list_img" src="images/춘식이.jfif" alt="people_chunsik">
+                    <div class="chat-list_status people-list_status"></div>
+                  </div>
+                  <div class="chat-list-profile-details">
+                    <span class="profile-details_name people-details-name">Chunsik</span>
+                    <span class="profile-details_onoffline people-details-onoffline">Online</span>
+                  </div>
+                </div>
+                <div class="people_iconbox">
+                  <i class="fas fa-microphone-alt-slash fa-lg"></i>
+                  <i class="far fa-times-circle fa-lg"></i>
+                </div>
+              </div>
+              <div class="chat-list-elements people-list-elements">
+                <div class="chat-list-element-box">
+                  <div class="chat-list-photo">
+                    <img class="people-list_img" src="images/오버액션토끼.png" alt="people_extremely rabbit">
+                    <div class="chat-list_status people-list_status status-yellow"></div>
+                  </div>
+                  <div class="chat-list-profile-details">
+                    <span class="profile-details_name people-details-name">Extremly Rabbit</span>
+                    <span class="profile-details_onoffline people-details-onoffline onoffline-yellow">Away</span>
+                  </div>
+                </div>
+                <div class="people_iconbox">
+                  <i class="fas fa-microphone-alt-slash fa-lg"></i>
+                  <i class="far fa-times-circle fa-lg"></i>
+                </div>
+              </div>
+              <div class="chat-list-elements people-list-elements">
+                <div class="chat-list-element-box">
+                  <div class="chat-list-photo">
+                    <img class="people-list_img" src="images/프로도.jfif" alt="people_prodo">
+                    <div class="chat-list_status people-list_status"></div>
+                  </div>
+                  <div class="chat-list-profile-details">
+                    <span class="profile-details_name people-details-name">Prodo</span>
+                    <span class="profile-details_onoffline people-details-onoffline">Online</span>
+                  </div>
+                </div>
+                <div class="people_iconbox">
+                  <i class="fas fa-microphone-alt-slash fa-lg"></i>
+                  <i class="far fa-times-circle fa-lg"></i>
+                </div>
+              </div>
+          </div>
+          <div class="chat-files">
+            <header class="active-chats_header">
+              <span>Chat files</span>
+              <button class="button active-chats_icon"><i class="fas fa-caret-down"></i></button>
+            </header>
+            <div class="chat-list">
+              <div class="chat-list-elements people-list-elements">
+                <div class="chat-list-element-box">
+                  <div class="chat-files_photo">
+                    <i class="far fa-file-alt"></i>
+                  </div>
+                  <div class="chat-list-profile-details">
+                    <span class="profile-details_job">Documents</span>
+                    <span class="profile-details_name">8 files</span>
+                  </div>
+                </div>
+                <div class="people_iconbox">
+                  <span class="chat-files_iconbox_mb">2.45MB</span>
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+              <div class="chat-list-elements people-list-elements">
+                <div class="chat-list-element-box">
+                  <div class="chat-files_photo">
+                    <i class="far fa-image"></i>
+                  </div>
+                  <div class="chat-list-profile-details">
+                    <span class="profile-details_job">Images</span>
+                    <span class="profile-details_name">13 files</span>
+                  </div>
+                </div>
+                <div class="people_iconbox">
+                  <span class="chat-files_iconbox_mb">9.77MB</span>
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+              <div class="chat-list-elements people-list-elements">
+                <div class="chat-list-element-box">
+                  <div class="chat-files_photo">
+                    <i class="fas fa-film"></i>
+                  </div>
+                  <div class="chat-list-profile-details">
+                    <span class="profile-details_job">Videos</span>
+                    <span class="profile-details_name">2 files</span>
+                  </div>
+                </div>
+                <div class="people_iconbox">
+                  <span class="chat-files_iconbox_mb">46.66MB</span>
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+              <div class="chat-list-elements people-list-elements">
+                <div class="chat-list-element-box">
+                  <div class="chat-files_photo">
+                    <i class="far fa-file"></i>
+                  </div>
+                  <div class="chat-list-profile-details">
+                    <span class="profile-details_job">Attachments</span>
+                    <span class="profile-details_name">7 files</span>
+                  </div>
+                </div>
+                <div class="people_iconbox">
+                  <span class="chat-files_iconbox_mb">0.45MB</span>
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+          </div>
+        </aside>
+    </div>
+    
+</body>
+</html>
